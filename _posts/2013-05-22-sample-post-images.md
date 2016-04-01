@@ -1,10 +1,17 @@
 ---
+title: A Post with Images
+date: '2013-05-22 00:00:00'
+categories: []
 layout: post
-title: "A Post with Images"
-description: "Examples and code for displaying images in posts."
-tags: [sample post, images, test]
----
+description: Examples and code for displaying images in posts.
+tags:
+- sample post
+- images
+- test
+slug: sample-post-images
+draft: false
 
+---
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
 
 ## Figures (for images or video)
@@ -22,8 +29,8 @@ Apply the `half` class like so to display two images side by side that share the
 
 {% highlight html %}
 <figure class="half">
-	<img src="/images/image-filename-1.jpg" alt="">
-	<img src="/images/image-filename-2.jpg" alt="">
+	<img src="http://localhost:5000/sites/iimrubriylowvq/image/%2Fimages%2Fimage-filename-1.jpg" alt="">
+	<img src="http://localhost:5000/sites/iimrubriylowvq/image/%2Fimages%2Fimage-filename-2.jpg" alt="">
 	<figcaption>Caption describing these two images.</figcaption>
 </figure>
 {% endhighlight %}
